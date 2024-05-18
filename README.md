@@ -18,6 +18,7 @@ Para su uso se necesita la instalación de:
 holehe
 proxychains
 tor
+curl
 ```
 
 ## Instalacion
