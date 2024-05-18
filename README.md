@@ -35,7 +35,7 @@ git clone https://github.com/megadose/holehe.git
 cd holehe/
 python3 setup.py install
 ```
-
+Clonar el repositorio actual
 ```bash
 git clone https://github.com/SilReon/HoleheRepeater
 cd HoleheRepeater
