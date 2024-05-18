@@ -7,8 +7,7 @@ Esta herramienta utiliza la red TOR para evitar posibles bloqueos o interferenci
 - [Requerimientos](#requerimientos)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
+- [Créditos](#créditos)
 
 ## Requerimientos
 
@@ -35,5 +34,10 @@ Clonar e instalar el repositorio [Holehe](https://github.com/megadose/holehe)
 
 En un archivo colocar todos los correos a los cuales realizar la búsqueda
 ```bash
-./HoleheRepeater.sh $Filecorreo
+./HoleheRepeater.sh Filecorreo
+Filecorreo= Archivo que contiene los correos
 ```
+
+## Créditos
+- Diego Cabrera - SilReon
+- Megadose - Holehe - https://github.com/megadose
