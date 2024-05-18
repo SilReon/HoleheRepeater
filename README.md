@@ -29,4 +29,4 @@ Instalar por consola
 sudo apt install proxychains tor
 ```
 
-Clonar e instalar el repositorio [Holehe]([https://example.com/documentation](https://github.com/megadose/holehe))
+Clonar e instalar el repositorio [Holehe] ([https://example.com/documentation](https://github.com/megadose/holehe))
