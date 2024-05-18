@@ -21,7 +21,7 @@ tor
 curl
 ```
 
-## Instalacion
+## Instalación
 
 Instalar por consola
 
