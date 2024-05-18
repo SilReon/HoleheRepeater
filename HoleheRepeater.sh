@@ -30,18 +30,19 @@ service tor start
 		
 sleep 3
  
-ip1="$(proxychains curl https://ipecho.net/plain 2>/dev/null)"
-echo -e "\n${blueColour}[*]${endColour} Mi dirección IP es {$ip1}"
-
+ip1="$(sudo proxychains curl https://ipecho.net/plain 2>/dev/null)"
 ip2=""
 index=1
 
 # Leer el archivo línea por línea e imprimir cada línea
 while IFS= read -r linea; do
-    if [ $((index % 10)) -eq 0 ]; then
-        service tor restart
+    if [ $((index % 5)) -eq 0 ]; then
+      echo -e "[!] Reseteando el servicio TOR...\n\n"
+      service tor restart
 	    sleep 2
-	    ip2="$(proxychains curl https://ipecho.net/plain 2>/dev/null)"
+      ip2=$ip1
+      ip1="$(sudo proxychains curl https://ipecho.net/plain 2>/dev/null)"
+      
 	    sleep 1
 	    while [ "$ip2" == "$ip1" ] || [ "$ip2" == "" ] ; do
 		    service tor restart
@@ -49,7 +50,7 @@ while IFS= read -r linea; do
 		    ip2="$(proxychains curl https://ipecho.net/plain 2>/dev/null)"
 	    done
     fi
-	echo -e "\n${blueColour}[*]${endColour} Mi dirección IP actual es {$ip2}"
+	echo -e "\n${blueColour}[*]${endColour} Mi dirección IP actual es {$ip1}"
     let index=index+1;
     holehe "$linea" | grep -E "\*|\+|$linea"
 done < $archivo
