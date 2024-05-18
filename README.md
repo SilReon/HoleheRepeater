@@ -30,3 +30,10 @@ sudo apt install proxychains tor
 ```
 
 Clonar e instalar el repositorio [Holehe](https://github.com/megadose/holehe)
+
+## Uso
+
+En un archivo colocar todos los correos a los cuales realizar la búsqueda
+```bash
+./HoleheRepeater.sh $Filecorreo
+```
