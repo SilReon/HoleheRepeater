@@ -19,9 +19,14 @@ Para su uso se necesita la instalación de:
 holehe
 proxychains
 tor
+```
 
 ## Instalacion
+
 Instalar por consola
+
 ```bash
 sudo apt install proxychains tor
+```
 
+Clonar e instalar el repositorio [Holehe]([https://example.com/documentation](https://github.com/megadose/holehe))
