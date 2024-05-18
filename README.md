@@ -18,4 +18,5 @@ holehe
 
 
 ```bash
-npm install mi-paquete
+holehe
+sudo apt install proxychains tor
