@@ -36,7 +36,7 @@ Clonar e instalar el repositorio [Holehe](https://github.com/megadose/holehe)
 En un archivo colocar todos los correos a los cuales realizar la búsqueda
 ```bash
 ./HoleheRepeater.sh Filecorreo
-Filecorreo= Archivo que contiene los correos
+Filecorreo = Archivo que contiene los correos
 ```
 
 ## Créditos
