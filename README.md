@@ -29,6 +29,7 @@ Instalar por consola
 sudo apt install proxychains tor
 ```
 
+Clonar e instalar el repositorio [Holehe](https://github.com/megadose/holehe)
 ```bash
 git clone https://github.com/megadose/holehe.git
 cd holehe/
@@ -40,8 +41,6 @@ git clone https://github.com/SilReon/HoleheRepeater
 cd HoleheRepeater
 chmod 744 HoleheRepeater.sh
 ```
-
-Clonar e instalar el repositorio [Holehe](https://github.com/megadose/holehe)
 
 ## Uso
 
