@@ -4,15 +4,18 @@ Una herramienta que automatiza la búsqueda OSINT de correos registrados en domi
 Esta herramienta utiliza la red TOR para evitar posibles bloqueos o interferencias al enviar multiples consultas.
 
 ## Tabla de Contenidos
-
+- [Requerimientos](#requerimientos)
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribución](#contribución)
 - [Licencia](#licencia)
 
-## Instalación
+## Requerimientos
 
-Proporciona instrucciones paso a paso sobre cómo instalar y configurar tu proyecto. Si hay varios pasos, es útil desglosarlos en secciones.
+Para su uso se necesita la instalación de los siguientes programas
+
+holehe
+
 
 ```bash
 npm install mi-paquete
