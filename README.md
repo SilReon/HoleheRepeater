@@ -1,6 +1,7 @@
-# Nombre del Proyecto
+# HoleheRepeater
 
-Breve descripción o resumen del proyecto.
+Una herramienta que automatiza la búsqueda OSINT de correos registrados en dominios populares.
+Esta herramienta utiliza la red TOR para evitar posibles bloqueos o interferencias al enviar multiples consultas.
 
 ## Tabla de Contenidos
 
