@@ -17,4 +17,11 @@ Para su uso se necesita la instalación de:
 
 ```bash
 holehe
+proxychains
+tor
+
+## Instalacion
+Instalar por consola
+```bash
 sudo apt install proxychains tor
+
