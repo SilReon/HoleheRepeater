@@ -12,9 +12,7 @@ Esta herramienta utiliza la red TOR para evitar posibles bloqueos o interferenci
 
 ## Requerimientos
 
-Para su uso se necesita la instalación de los siguientes programas
-
-holehe
+Para su uso se necesita la instalación de:
 
 
 ```bash
