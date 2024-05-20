@@ -53,3 +53,4 @@ Filecorreo = Archivo que contiene los correos
 ## Créditos
 - Diego Cabrera - SilReon
 - Megadose - Holehe - https://github.com/megadose
+- Gustavo Segundo - Bytenull00
